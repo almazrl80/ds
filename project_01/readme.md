@@ -5,13 +5,13 @@
 
 [2. УСЛОВИЯ ЗАДАНИЯ](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#условия-задания)
 
-[2.1. Подход 1: Случайное угадывание](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#условия-задания)
+[2.1. Подход 1: Случайное угадывание](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#подход-1-случайное-угадывание)
 
-[2.2. Подход 2: Случайное угадывание](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#условия-задания)
+[2.2. Подход 2: Случайное угадывание](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#подход-2-угадывание-с-коррекцией)
 
 [3. МЕТРИКА КАЧЕСТВА](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#метрика-качества)
 
-[4. НАШЕ РЕШЕНИЕ](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#что-практикуем)
+[4. НАШЕ РЕШЕНИЕ](https://github.com/almazrl80/ds/blob/main/project_01/readme.md#наше-решение)
 
 ### ОПИСАНИЕ ПРОЕКТА
 Нужно написать программу, которая угадывает число за минимальное число попыток.
