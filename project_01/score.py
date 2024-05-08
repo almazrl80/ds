@@ -24,13 +24,13 @@ def game_core_v2(number: int = 1) -> int:
         int: Число попыток
     """
     count = 0
-    predict = np.random.randint(1, 101)  
-    while number != predict:
+    predict = np.random.randint(1, 101)  # предполагаемое число
+    while number != predict: # условие работы цикла
         count += 1
         if number > predict:
-            predict += 1
+            predict += 1 # увеличиваем предполагаемое число
         elif number < predict:
-            predict -= 1
+            predict -= 1 # ууменьшаем предполагаемое число
     return count
 def game_core_v3(number: int = 1) -> int:
     """
@@ -40,17 +40,18 @@ def game_core_v3(number: int = 1) -> int:
         int: Число попыток
     """
     count = 0  
+    # устанавливаем граничные значения
     min_num = 1
     max_num = 101
     while True:
-        predict = np.random.randint(min_num, max_num)
+        predict = np.random.randint(min_num, max_num) # загадываем число из диапазона
         count += 1
         if predict == number:
-            break
+            break # выход из цикла если угадали
         elif predict < number:
-            min_num = predict
+            min_num = predict # устанавливаем новую границу
         elif predict > number:
-            max_num = predict
+            max_num = predict # устанавливаем новую границу
     return count
 def score_game(random_predict) -> int:
     """За какое количество попыток в среднем за 10000 подходов угадывает наш алгоритм
