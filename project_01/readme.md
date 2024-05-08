@@ -40,6 +40,9 @@
 [РЕЗУЛЬТАТЫ](https://github.com/almazrl80/ds/blob/main/project_01/score.py)
 
 Результаты анализа подходов:
+
 Run benchmarking for random_predict: Ваш алгоритм угадывает число в среднем за: 100 попытки
+
 Run benchmarking for game_core_v2: Ваш алгоритм угадывает число в среднем за: 32 попытки
+
 Run benchmarking for game_core_v3: Ваш алгоритм угадывает число в среднем за: 8 попытки
